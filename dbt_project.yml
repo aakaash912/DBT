@@ -49,6 +49,6 @@ models:
       +materialized: table
     +materialized: table
   staging:
-    +materialized: table
+    materialized: table
     jaffle_shop:
-      +materialized: table
+      materialized: table
