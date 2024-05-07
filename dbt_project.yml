@@ -40,7 +40,7 @@ models:
     models:
       staging:
         jaffle_shop:
-          +materialized: table
+        materialized: table
   marts:
     core:
       +materialized: table
@@ -48,3 +48,7 @@ models:
     example:
       +materialized: table
     +materialized: table
+  staging:
+    +materialized: table
+    jaffle_shop:
+      +materialized: table
