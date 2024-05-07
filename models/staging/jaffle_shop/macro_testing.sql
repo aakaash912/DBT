@@ -1,1 +1,0 @@
-select * from {{macro_join(table_1='raw.jaffle_shop.orders',table_2='raw.jaffle_shop.customers',column_name='ID')}}

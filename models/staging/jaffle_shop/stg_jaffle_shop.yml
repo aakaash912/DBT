@@ -21,3 +21,5 @@ models:
                 - completed
                 - shipped
                 - returned
+                - return_pending
+                - placed
