@@ -1,0 +1,1 @@
+select {{hwm_splitter('_etl_loaded_at')}} from raw.jaffle_shop.orders

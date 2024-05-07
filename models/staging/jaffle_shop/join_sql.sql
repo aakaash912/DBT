@@ -1,0 +1,1 @@
+select raw.jaffle_shop.customers.id,raw.jaffle_shop.customers.first_name,raw.jaffle_shop.orders.order_date,raw.jaffle_shop.orders.status from {{macro_join('join','raw.jaffle_shop.customers','raw.jaffle_shop.orders','id')}}
